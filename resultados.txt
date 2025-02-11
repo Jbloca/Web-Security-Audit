@@ -1,5 +1,5 @@
 - Nikto v2.5.0/
-+ Target Host: www.clubsportingcristal.pe
++ Target Host: www.xxxxxxxxx.pe
 + Target Port: 443
 + GET /: The anti-clickjacking X-Frame-Options header is not present. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options: 
 + GET /: The site uses TLS and the Strict-Transport-Security HTTP header is not defined. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security: 
@@ -19,7 +19,7 @@
 + GET /robots.txt: contains 14 entries which should be manually viewed. See: https://developer.mozilla.org/en-US/docs/Glossary/Robots.txt: 
 + GET /: The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type. See: https://www.netsparker.com/web-vulnerability-scanner/vulnerabilities/missing-content-type-header/: 
 + GET /: The Content-Encoding header is set to "deflate" which may mean that the server is vulnerable to the BREACH attack. See: http://breachattack.com/: 
-+ GET Hostname 'www.clubsportingcristal.pe' does not match certificate's names: clubsportingcristal.pe. See: https://cwe.mitre.org/data/definitions/297.html: 
++ GET Hostname 'www.xxxxxxx.pe' does not match certificate's names: xxxxxxx.pe. See: https://cwe.mitre.org/data/definitions/297.html: 
 + HEAD /216.246.47.153.tar.gz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
 + HEAD /216.246.47.153.pem: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
 + HEAD /216.246.47.153.alz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
