@@ -2,7 +2,7 @@
 
 Este documento describe el análisis de seguridad realizado a un sitio web utilizando herramientas como **Nikto**, **OWASP ZAP**, y técnicas de inyección SQL. Se ha realizado en un entorno de pruebas utilizando **Kali Linux**.
 
-## **Información General del Sitio Web 📝 **
+## Información General del Sitio Web 📝
 - **Tipo de Sitio Web:** Joomla  
 - **Tecnologías utilizadas:** PHP, MySQL  
 - **Objetivo del Análisis:** Identificar vulnerabilidades de seguridad y proponer soluciones efectivas.  
