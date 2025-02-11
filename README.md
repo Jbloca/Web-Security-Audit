@@ -77,7 +77,7 @@ Este documento describe el análisis de seguridad realizado a un sitio web utili
 
 - [Resultados Completo](./resultados.txt)
 
---  
+---  
 
 ## **3. Recomendaciones Generales**  
 1. **Actualizar Joomla y plugins** regularmente para corregir vulnerabilidades conocidas.  
@@ -89,7 +89,7 @@ Este documento describe el análisis de seguridad realizado a un sitio web utili
 ## **4. Conclusiones**  
 Este análisis permitió identificar vulnerabilidades críticas que podrían comprometer el sitio web. Implementando las soluciones propuestas, se puede fortalecer la seguridad y reducir el riesgo de ataques.  
 
---
+---
 
 ## Referencias📑
 
@@ -104,4 +104,4 @@ Este análisis permitió identificar vulnerabilidades críticas que podrían com
 - LinkedIn: [Enlace a mi perfil](https://www.linkedin.com/in/jorge-balarezo-cardenas/)  
 - Email: [jbalarezocarden@gmail.com]
 
---
+---
