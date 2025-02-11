@@ -2,7 +2,7 @@
 
 Este documento describe el análisis de seguridad realizado a un sitio web utilizando herramientas como **Nikto**, **OWASP ZAP**, y técnicas de inyección SQL. Se ha realizado en un entorno de pruebas utilizando **Kali Linux**.
 
-## **Información General del Sitio Web**
+## **Información General del Sitio Web 📝 **
 - **Tipo de Sitio Web:** Joomla  
 - **Tecnologías utilizadas:** PHP, MySQL  
 - **Objetivo del Análisis:** Identificar vulnerabilidades de seguridad y proponer soluciones efectivas.  
@@ -25,7 +25,7 @@ Este documento describe el análisis de seguridad realizado a un sitio web utili
   - Evitar incluir rutas sensibles en `robots.txt` o restringir accesos mediante `.htaccess`.
 
 #### **Evidencia:**
-![robots.txt encontrado](capturas/robots_txt.png)
+![robots.txt encontrado](screenshots/robots_txt.png)
 
 ---
 
@@ -40,7 +40,7 @@ Este documento describe el análisis de seguridad realizado a un sitio web utili
   - Configurar redirecciones o respuestas HTTP 403 para evitar su indexación.
 
 #### **Evidencia:**
-![Acceso al panel de administración](capturas/admin_access.png)
+![Acceso al panel de administración](screenshots/admin_access.png)
 
 
 ---
@@ -56,7 +56,7 @@ Este documento describe el análisis de seguridad realizado a un sitio web utili
   - Implementar un Web Application Firewall (WAF).
 
 #### **Evidencia:**
-![Prueba de SQL Injection](capturas/sql_injection.png)
+![Prueba de SQL Injection](screenshots/sql_injection.png)
 
 ---
 
@@ -69,9 +69,15 @@ Este documento describe el análisis de seguridad realizado a un sitio web utili
   - Configurar los encabezados de seguridad en el servidor web.
 
 #### **Evidencia:**
-![Encabezados de seguridad ausentes](capturas/security_headers.png)
+![Encabezados de seguridad ausentes](screenshots/security_headers.png)
 
 ---
+
+## Reporte Completo 📑
+
+- [Resultados Completo](./resultados.txt)
+
+--  
 
 ## **3. Recomendaciones Generales**  
 1. **Actualizar Joomla y plugins** regularmente para corregir vulnerabilidades conocidas.  
@@ -85,19 +91,17 @@ Este análisis permitió identificar vulnerabilidades críticas que podrían com
 
 --
 
-## Referencias
+## Referencias📑
 
 - [OWASP Top 10](https://owasp.org/www-project-top-ten/)
 - [OWASP SQL Injection Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html)
 - [OWASP XSS Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/XSS_Prevention_Cheat_Sheet.html)
 - [OWASP CSRF Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Request_Forgery_Prevention_Cheat_Sheet.html)
 
----
+## Autor 👨‍💻
 
-## Imágenes de las Vulnerabilidades
+**[Jorge Balarezo Cardenas]**  
+- LinkedIn: [Enlace a mi perfil](https://www.linkedin.com/in/jorge-balarezo-cardenas/)  
+- Email: [jbalarezocarden@gmail.com]
 
-![Inyección SQL](./captura_sql_injection.png)
-![XSS](./captura_xss.png)
-![CSRF](./captura_csrf.png)
-![Exposición de Información Sensible](./captura_info_sensible.png)
-![Misconfiguración](./captura_misconfiguracion.png)
+--
