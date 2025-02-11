@@ -1,0 +1,105 @@
+- Nikto v2.5.0/
++ Target Host: www.clubsportingcristal.pe
++ Target Port: 443
++ GET /: The anti-clickjacking X-Frame-Options header is not present. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options: 
++ GET /: The site uses TLS and the Strict-Transport-Security HTTP header is not defined. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security: 
++ GET /: An alt-svc header was found which is advertising HTTP/3. The endpoint is: ':443'. Nikto cannot test HTTP/3 over QUIC. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/alt-svc: 
++ GET /robots.txt: Entry '/plugins/' is returned a non-forbidden or redirect HTTP code (200). See: https://portswigger.net/kb/issues/00600600_robots-txt-file: 
++ GET /robots.txt: Entry '/components/' is returned a non-forbidden or redirect HTTP code (200). See: https://portswigger.net/kb/issues/00600600_robots-txt-file: 
++ GET /robots.txt: Entry '/layouts/' is returned a non-forbidden or redirect HTTP code (200). See: https://portswigger.net/kb/issues/00600600_robots-txt-file: 
++ GET /robots.txt: Entry '/cache/' is returned a non-forbidden or redirect HTTP code (200). See: https://portswigger.net/kb/issues/00600600_robots-txt-file: 
++ GET /robots.txt: Entry '/tmp/' is returned a non-forbidden or redirect HTTP code (200). See: https://portswigger.net/kb/issues/00600600_robots-txt-file: 
++ GET /robots.txt: Entry '/language/' is returned a non-forbidden or redirect HTTP code (200). See: https://portswigger.net/kb/issues/00600600_robots-txt-file: 
++ GET /robots.txt: Entry '/administrator/' is returned a non-forbidden or redirect HTTP code (200). See: https://portswigger.net/kb/issues/00600600_robots-txt-file: 
++ GET /robots.txt: Entry '/bin/' is returned a non-forbidden or redirect HTTP code (200). See: https://portswigger.net/kb/issues/00600600_robots-txt-file: 
++ GET /robots.txt: Entry '/cli/' is returned a non-forbidden or redirect HTTP code (200). See: https://portswigger.net/kb/issues/00600600_robots-txt-file: 
++ GET /robots.txt: Entry '/modules/' is returned a non-forbidden or redirect HTTP code (200). See: https://portswigger.net/kb/issues/00600600_robots-txt-file: 
++ GET /robots.txt: Entry '/includes/' is returned a non-forbidden or redirect HTTP code (200). See: https://portswigger.net/kb/issues/00600600_robots-txt-file: 
++ GET /robots.txt: Entry '/libraries/' is returned a non-forbidden or redirect HTTP code (200). See: https://portswigger.net/kb/issues/00600600_robots-txt-file: 
++ GET /robots.txt: contains 14 entries which should be manually viewed. See: https://developer.mozilla.org/en-US/docs/Glossary/Robots.txt: 
++ GET /: The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type. See: https://www.netsparker.com/web-vulnerability-scanner/vulnerabilities/missing-content-type-header/: 
++ GET /: The Content-Encoding header is set to "deflate" which may mean that the server is vulnerable to the BREACH attack. See: http://breachattack.com/: 
++ GET Hostname 'www.clubsportingcristal.pe' does not match certificate's names: clubsportingcristal.pe. See: https://cwe.mitre.org/data/definitions/297.html: 
++ HEAD /216.246.47.153.tar.gz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /216.246.47.153.pem: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /216.246.47.153.alz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /216.246.47.153.jks: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /216.246.47.153.sql: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /216.246.47.153.egg: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /216.246.47.153.tar: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /216.246.47.153.gz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /216.246.47.153.tgz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /216.246.47.153.tar.lzma: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /216.246.47.153.cer: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /216.246.47.153.war: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /216.246.47.153.tar.bz2: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /216.246.47.153.zip: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ GET /cgi-sys/atk/javascript/class.atkdateattribute.js.php?config_atkroot=http://blog.cirt.net/rfiinc.txt: Uncommon header 'cf-edge-cache' found, with contents: no-cache.
++ GET /vgn/performance/TMT: Vignette CMS admin/maintenance script available.
++ GET /vgn/performance/TMT/Report: Vignette CMS admin/maintenance script available.
++ GET /vgn/performance/TMT/Report/XML: Vignette CMS admin/maintenance script available.
++ GET /vgn/performance/TMT/reset: Vignette CMS admin/maintenance script available.
++ GET /vgn/ppstats: Vignette CMS admin/maintenance script available.
++ GET /vgn/previewer: Vignette CMS admin/maintenance script available.
++ GET /vgn/record/previewer: Vignette CMS admin/maintenance script available.
++ GET /vgn/stylepreviewer: Vignette CMS admin/maintenance script available.
++ GET /vgn/vr/Deleting: Vignette CMS admin/maintenance script available.
++ GET /vgn/vr/Editing: Vignette CMS admin/maintenance script available.
++ GET /vgn/vr/Saving: Vignette CMS admin/maintenance script available.
++ GET /vgn/vr/Select: Vignette CMS admin/maintenance script available.
++ GET /scripts/iisadmin/bdir.htr: This default script shows host info, may allow file browsing and buffer a overrun in the Chunked Encoding data transfer mechanism, request /scripts/iisadmin/bdir.htr??c:\<dir>. See: MS02-028: 
++ GET /scripts/iisadmin/ism.dll: Allows you to mount a brute force attack on passwords.
++ GET /scripts/tools/ctss.idc: This CGI allows remote users to view and modify SQL DB contents, server paths, docroot and more.
++ GET /bigconf.cgi: BigIP Configuration CGI.
++ GET /blah_badfile.shtml: Allaire ColdFusion allows JSP source viewed through a vulnerable SSI call.
++ GET /vgn/style: Vignette server may reveal system information through this file. See: CVE-2003-0401: 
++ GET /SiteServer/Admin/commerce/foundation/domain.asp: Displays known domains of which that server is involved. See: CVE-2002-1769: 
++ GET /SiteServer/Admin/commerce/foundation/driver.asp: Displays a list of installed ODBC drivers. See: CVE-2002-1769: 
++ GET /SiteServer/Admin/commerce/foundation/DSN.asp: Displays all DSNs configured for selected ODBC drivers. See: CVE-2002-1769: 
++ GET /SiteServer/admin/findvserver.asp: Gives a list of installed Site Server components. See: CVE-2002-1769: 
++ GET /SiteServer/Admin/knowledge/dsmgr/default.asp: Used to view current search catalog configurations.
++ GET /bin/moin.cgi?test: MoinMoin 1.1 and prior contain at least two XSS vulnerabilities. Version 1.0 and prior also contains a XSLT related vulnerability. See: http://moinmo.in/MoinMoinDownload: 
++ GET /cgi-sys/moin.cgi?test: MoinMoin 1.1 and prior contain at least two XSS vulnerabilities. Version 1.0 and prior also contains a XSLT related vulnerability. See: http://moinmo.in/MoinMoinDownload: 
++ GET /basilix/mbox-list.php3: BasiliX webmail application prior to 1.1.1 contains a XSS issue in 'message list' function/page.
++ GET /basilix/message-read.php3: BasiliX webmail application prior to 1.1.1 contains a XSS issue in 'read message' function/page.
++ GET /clusterframe.jsp: Macromedia JRun 4 build 61650 remote administration interface is vulnerable to several XSS attacks.
++ GET /IlohaMail/blank.html: IlohaMail 0.8.10 contains a XSS vulnerability. Previous versions contain other non-descript vulnerabilities.
++ GET /bb-dnbd/faxsurvey: This may allow arbitrary command execution.
++ GET /cartcart.cgi: If this is Dansie Shopping Cart 3.0.8 or earlier, it contains a backdoor to allow attackers to execute arbitrary commands.
++ GET /scripts/Carello/Carello.dll: Carello 1.3 may allow commands to be executed on the server by replacing hidden form elements. This could not be tested by Nikto. See: CVE-2001-0614: 
++ GET /scripts/tools/dsnform.exe: Allows creation of ODBC Data Source.
++ GET /scripts/tools/dsnform: Allows creation of ODBC Data Source.
++ GET /SiteServer/Admin/knowledge/dsmgr/users/GroupManager.asp: Microsoft Site Server script used to create, modify, and potentially delete LDAP users and groups. See: https://securitytracker.com/id/1003420: 
++ GET /SiteServer/Admin/knowledge/dsmgr/users/UserManager.asp: Microsoft Site Server used to create, modify, and potentially delete LDAP users and groups. See: https://securitytracker.com/id/1003420: 
++ GET /prd.i/pgen/: Has MS Merchant Server 1.0.
++ GET /readme.eml: Remote server may be infected with the Nimda virus.
++ GET /scripts/httpodbc.dll: Possible IIS backdoor found.
++ GET /scripts/proxy/w3proxy.dll: MSProxy v1.0 installed.
++ GET /SiteServer/admin/: Site Server components admin. Default account may be 'LDAP_Anonymous', pass is 'LdapPassword_1'. See: https://github.com/sullo/advisory-archives/blob/master/RFP2201.txt: 
++ GET /siteseed/: Siteseed pre 1.4.2 have 'major' security problems.
++ GET /pccsmysqladm/incs/dbconnect.inc: This file should not be accessible, as it contains database connectivity information. Upgrade to version 1.2.5 or higher.
++ GET /iisadmin/: Access to /iisadmin should be restricted to localhost or allowed hosts only.
++ GET /PDG_Cart/order.log: PDG Commerce log found. See: http://zodi.com/cgi-bin/shopper.cgi?display=intro&template=Intro/commerce.html: 
++ GET /ows/restricted%2eshow: OWS may allow restricted files to be viewed by replacing a character with its encoded equivalent.
++ GET /view_source.jsp: Resin 2.1.2 view_source.jsp allows any file on the system to be viewed by using \..\ directory traversal. This script may be vulnerable.
++ GET /w-agora/: w-agora pre 4.1.4 may allow a remote user to execute arbitrary PHP scripts via URL includes in include/*.php and user/*.php files. Default account is 'admin' but password set during install.
++ GET /vider.php3: MySimpleNews may allow deleting of news items without authentication. See: CVE-2002-2320: 
++ GET /officescan/cgi/cgiChkMasterPwd.exe: Trend Micro Officescan allows you to skip the login page and access some CGI programs directly. See: https://web.archive.org/web/20030607054822/http://support.microsoft.com/support/exchange/content/whitepapers/owaguide.doc: 
++ GET /bin/astrocam.cgi: Astrocam 1.4.1 contained buffer overflow. Prior to 2.1.3 contained unspecified security bugs. See: BID-4684: 
++ GET /cgi-sys/astrocam.cgi: Astrocam 1.4.1 contained buffer overflow. Prior to 2.1.3 contained unspecified security bugs. See: BID-4684: 
++ GET /bin/badmin.cgi: BannerWheel v1.0 is vulnerable to a local buffer overflow. If this is version 1.0 it should be upgraded.
++ GET /cgi-sys/badmin.cgi: BannerWheel v1.0 is vulnerable to a local buffer overflow. If this is version 1.0 it should be upgraded.
++ GET /bin/boozt/admin/index.cgi?section=5&input=1: Boozt CGI may have a buffer overflow. Upgrade to a version newer than 0.9.8alpha. See: CVE-2002-0098: 
++ GET /cgi-sys/boozt/admin/index.cgi?section=5&input=1: Boozt CGI may have a buffer overflow. Upgrade to a version newer than 0.9.8alpha. See: CVE-2002-0098: 
++ GET /bin/ezadmin.cgi: Some versions of this CGI are vulnerable to a buffer overflow.
++ GET /cgi-sys/ezadmin.cgi: Some versions of this CGI are vulnerable to a buffer overflow.
++ GET /bin/ezboard.cgi: Some versions of this CGI are vulnerable to a buffer overflow.
++ GET /cgi-sys/ezboard.cgi: Some versions of this CGI are vulnerable to a buffer overflow.
++ GET /bin/ezman.cgi: Some versions of this CGI are vulnerable to a buffer overflow.
++ GET /cgi-sys/ezman.cgi: Some versions of this CGI are vulnerable to a buffer overflow.
++ GET /bin/foxweb.dll: Foxweb 2.5 and below is vulnerable to a buffer overflow (not tested or confirmed). Verify Foxweb is the latest available version. See: CVE-2003-0762: 
++ GET /cgi-sys/foxweb.dll: Foxweb 2.5 and below is vulnerable to a buffer overflow (not tested or confirmed). Verify Foxweb is the latest available version. See: CVE-2003-0762: 
++ GET /bin/foxweb.exe: Foxweb 2.5 and below is vulnerable to a buffer overflow (not tested or confirmed). Verify Foxweb is the latest available version. See: CVE-2003-0762: 
++ GET /cgi-sys/foxweb.exe: Foxweb 2.5 and below is vulnerable to a buffer overflow (not tested or confirmed). Verify Foxweb is the latest available version. See: CVE-2003-0762: 
++ GET /bin/mgrqcgi: This CGI from Magic Enterprise 8.30-5 and earlier is vulnerable to multiple buffer overflows. Upgrade to 9.x.
++ GET /cgi-sys/mgrqcgi: This CGI from Magic Enterprise 8.30-5 and earlier is vulnerable to multiple buffer overflows. Upgrade to 9.x.
